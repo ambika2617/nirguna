@@ -1,0 +1,79 @@
+@media (max-width:600px) {
+
+    .card {
+        margin-top:50%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+    
+    .hero{
+        padding-top: 30%;
+        background-blend-mode: darken;
+        opacity: 0.;
+        background-color: rgb(107, 103, 103);
+    }
+    .hero .btn{
+        margin-left: -10%;
+    }
+    .product .product-img-1{
+      margin-top: 10%;
+    }
+    .product .product-img-2{
+        margin-top: 10%;
+      }
+      .product .product-img-3{
+        margin-top: 10%;
+      }
+     .about h1{
+        padding-left: 5%;
+     }
+     .about p{
+        padding-left: 5%;
+     }
+     .about .btn-1{
+       margin-left:5% ;
+     }
+     .country .card{
+        margin-top: 30px;
+        width: 80%;
+     }
+
+     .imf span {       
+        width: 25%;       
+    }
+
+    .imf .card {
+        margin-bottom: 30px;
+    }
+    .sub-hero{
+        padding-top: 25%;
+    }
+    .about-1{
+        margin: 0px 15px;
+    }
+    .about-1 .abt img{
+       padding: 20px 30px;
+       margin-left: 10%;
+    }
+    .about-1 .abt-list{
+        margin-right: 20px;
+    
+    }
+    .director .card{
+     margin-top: -10%;
+     margin-bottom: 5%;
+    }
+    .product-1 .card{
+       margin-top: 0%;
+       margin-bottom: 30px;
+    }
+    .contact-1 .card{
+        margin-top: 0%;
+        margin-bottom: 30px;
+    }
+    .footer{
+        padding:0px 10px;
+    }
+}

@@ -1,0 +1,105 @@
+
+  /*contact-form*/
+  .contact_form {
+    padding: 50px;
+    width: 100%;
+    margin: auto;
+    background-color: #fff;
+ 
+ 
+   }
+ 
+   .contact_form .top_input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+   }
+ 
+  
+ 
+   .contact_form button:focus {
+     box-shadow: none;
+   }
+ 
+    .hero-form .pr {
+      position: relative;
+   }
+ 
+    .contact_form label {
+      font-size: 15px;
+      font-weight: 500;
+      font-family: Mulish, sans-serif;
+   
+    }
+ 
+ ::placeholder {
+       color: rgb(0, 0, 0) !important;
+     }
+ 
+    .contact_form input,
+    .contact_form input:focus,
+    .contact_form textarea,
+    .contact_form textarea:focus,
+    .contact-form select,
+    .contact-form select:focus{
+    padding: 10px;
+    color: rgb(1, 1, 1);
+    border-radius: 10px;
+    outline: none;
+    outline-width: 0;
+    outline-color: rgb(0, 0, 0);
+   /*  box-shadow: 0 2px 20px -1px rgb(0 0 0 /19%);   */
+
+  
+ 
+   }
+ 
+   .hero-form .pr>.input-error-msg {
+      margin-bottom: -1rem;
+   }
+ 
+   .hero-form .pr:after {
+      content: '';
+      display: block;
+      position: absolute;
+      right: -0.4rem;
+      top: -0.3rem;
+      font-size: 1rem;
+      color: red;
+      z-index: 1;
+   }
+ 
+   .hero-form .pr.optional:after {
+      display: none;
+   }
+ 
+   .hero-form .pr:after {
+      right: 1rem;
+      top: 0.4rem;
+   }
+ 
+   .outer .success-message {
+      color: #404040;
+      min-height: 24rem;
+      display: none;
+      width: 100%;
+      font-size: 1.2rem;
+      border-radius: 15px;
+   }
+ 
+   .outer .success-message> div {
+      width: 100%;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+   }
+ 
+   /*contact-info*/
+  h2
+  {
+    font-weight: 800 !important;
+  }
+ 
